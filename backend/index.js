@@ -4,7 +4,7 @@ const Task = require('./schema');
 const cors = require('cors');
 
 const app = express();
-const dbURL = `mongodb://0.0.0.0:27017/202212076`;
+const dbURL = `mongodb://0.0.0.0:27017/ticklist`;
 
 app.use(cors());
 app.use(express.json());
